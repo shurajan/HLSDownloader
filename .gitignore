@@ -1,0 +1,33 @@
+# Игнорируем папку build, где будут временные файлы сборки
+/build/
+
+# Игнорируем файлы, созданные CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Игнорируем временные файлы и артефакты
+*.o
+*.so
+*.a
+*.dylib
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Игнорируем лог-файлы
+*.log
+
+# Игнорируем виртуальные окружения Python
+venv/
+.env/
+.venv/
+
+# Игнорируем файлы конфигураций IDE
+.idea/
+.vscode/
+
+# Игнорируем установленные пакеты Python
+python/*.egg-info/
