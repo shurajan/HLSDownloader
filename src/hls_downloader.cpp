@@ -149,7 +149,6 @@ void add_task(const std::string& url, const std::string& output) {
 // Функция для запуска воркеров
 void start_workers(int num_workers) {
     setupSignalHandler();  // Устанавливаем обработчик сигнала Ctrl+C
-
     spdlog::info("Запуск {} воркеров", num_workers);
 
     for (int i = 0; i < num_workers; ++i) {
