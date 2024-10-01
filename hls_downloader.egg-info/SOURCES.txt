@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+hls_downloader.egg-info/PKG-INFO
+hls_downloader.egg-info/SOURCES.txt
+hls_downloader.egg-info/dependency_links.txt
+hls_downloader.egg-info/not-zip-safe
+hls_downloader.egg-info/top_level.txt
+src/hls_downloader.cpp

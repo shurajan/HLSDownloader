@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: hls_downloader
+Version: 0.0.1
+Summary: HLS Downloader with FFmpeg and Pybind11
+Author: Alex Bralnin
+Author-email: shurajangit@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Linux
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # HLS Downloader
 
 This Python package provides a high-performance HLS downloader built with FFmpeg and Pybind11.
@@ -20,19 +33,16 @@ hls_downloader.stop_downloads()
 ## Development
 
 Libraries:
-```bash
 sudo apt-get update
 sudo apt-get install libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev libavfilter-dev
 sudo apt-get install libspdlog-dev libfmt-dev
-```
 
 Python:
-```
 pip install setuptools
 pip install pybind11
 pip install setuptools wheel twine
-```
-```bash
+
 chmod +x build.sh
 ./build.sh
-```
+
+python3 setup.py sdist bdist_wheel
